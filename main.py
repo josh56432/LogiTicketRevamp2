@@ -1,73 +1,107 @@
-locations = ['Origin', ['Arise', 'Cado', 'Dormio', "The Dreamer's Road", 'The Echo', 'Exorior', 'Finis', 'Initium', 'The Sundering', 'Teichotima', 'Temple Field', 'World Star']], ["Basin Sionnach", ['Basinhome', 'Cunning Cross', 'Cuttail Station', 'The Den', 'The Foxfields', 'Lamplight', 'Radiant Shore', 'Sess', 'Stoic']], ['Speaking Woods', ['Calmland', 'Cursed Court', 'The Filament', 'Fort Blather', 'Hush', 'Inari Base', 'Mount Rell', 'Mute', 'Reaching River', 'Rell Foothills', 'Sotto Bank', 'Stem', 'Tine', 'Wound']], ['Howl County', ['Austriaca Reservoir', 'Checkpoint Titim', 'Fort Red', 'Fort Rider', 'Great Warden Dam', 'Hungry Wolf', 'Little Lamb', 'Sickleshire', 'Slipgate Outpost', 'Snakewell', 'Teller Farm', 'The Hunting Grounds', 'Viperwalk']], ["Callum's Cape", ["Callum's Keep", 'Camp Hollow', 'The Dreg', 'The Gunwall', 'Holdout', 'Hollowhill', 'Ire', 'Lookout', 'Naofa', 'Princefal Burn', 'The River Vein', 'Scouts Jest', 'Trail of the Dead', 'Valta Downs', 'Windy Way']], ['Reaching Trail', ['The Ark', 'Brodytown', 'The Cairns', 'Camp Eos', 'Caragtais', 'The Chicken Coop', 'The Deckard',"Dungan's Approach", 'Dwyersfield', 'Dwyerstown', 'Elksford', 'Featherfield', 'Harpy', 'Ice Ranch', 'Limestone Holdfast', 'Mousetrap', 'Nightchurch', 'Pitfall', 'Puncta', 'The Reaching Heights', 'Reprieve', 'The Rousing Fields', 'The Scar', 'Scorpion', 'Thylak']], ['Clanshead Valley', ["The Bastard's Channel", 'Bramble Field', 'Fallen Crown', 'Fort Ealar', 'Fort Esterwild', 'The King', 'Lost Orphans', 'Fort Windham', 'The Pike', 'Sweetholt', 'Tallowild', 'Throne of Druiminn', 'The Weathered Expanse']], ["Nevish Line", ['The Aging Ocean', 'The Arrow', 'Blackcoat Way', 'Blinding Stones', 'Grief Mother', 'Mistle Shrine', 'Nevish Trail', 'Plumage', 'Princefal', 'Princefal Burn', 'The Scrying Belt', 'Tear Road', 'Tomb Father', 'Unruly']], ['The Moors', ["Aillen's Burrow", 'Bitter Bramble', 'Borderlane', "Callum's Pass", 'The Cut', 'The Finger', 'The Graveyard', 'Headstone', "Luch's Workshop", "Lyon's Wood", 'MacConmara Barrows', "Moon's Walk", "Morrighan's Grave", 'The Mound', 'Ogmaran', 'Reaching River', 'Riverhill', 'Scáth Copse', 'Wiccwalk', 'Wiccwood', 'The Wind Hills']], ['Viper Pit', ["Afric's Approach", 'Austriaca River', 'Blackthroat', 'The Bloody Bowery', 'Deadsteps', 'Earl Crowley', "Earl's Welcome", 'Fleck Crossing', 'Fort Viper', 'The Friars', 'Hardcaps', 'Kirknell', "The Lady's Lake", 'Lake Mioira', 'Moltworth', 'Path of the Charmed', 'The Rockaway', "Serenity's Blight", 'The Slithering Scales', 'Snakehead Lake', 'The Tongue', 'Twin Fangs']], ["Morgen's Crossing", ['Allsight', 'The Bastard Sea', "Bastard's Block", "Callum's Descent", 'Crimson Thread', 'Eversus', 'Lividus', 'Quietus', 'Rising Calm', 'Ultimus', 'Velian Storm', 'Warmonger Bay']], ['Stonecradle', ['The Ageing Ocean', 'Buckler Sound', 'The Cord', 'Fading Lights', "The Heir's Knife", 'The Loneliest Shore', 'The Long Fast', 'Longing', 'The Pram', 'The Reach', 'The Roiling Comets', 'Trammel Pool', "World's End"]], ["Callahan's Passage", ["Callahan's Eye", 'Chapel Access', 'Cragsfield', 'Cragsroad', 'Cragstown', 'The Crumbling Passage', 'Crumbling Post', 'The Key', 'The Latch', 'Lingering Lashes', 'Lochan', 'Lochan Berth', 'Overlook Hill', 'The Procession', 'The Rust Road', 'Scáth Passing', 'Sioc Approach', 'Solas Gateway', 'Solas Gorge', 'The Stern', 'Twisted Mumble', 'White Chapel']], ['Weathered Expanse', ['Bannerwatch', 'Barrowsfield', "Crow's Nest", "Dullahan's Crest", 'Eapoe', 'Foxcatcher', 'Frostmarch', 'Huntsfort', 'The Ivory Bank', 'The Ivory Sea', 'Kirkyard', 'Necropolis', 'Port of Rime', "Revenant's Path", 'Rime Wastes', 'Shattered Advance', 'The Spear', 'Spirit Watch', 'The Stand', 'The Weathered Wall', 'The Weathering Halls', 'Wightwalk', "Wraith's Gate"]], ["The Oarbreaker Isles", ['Alabastor Island', 'Barrenson', 'Base Akris', 'Bronze', 'Castor', 'The Conclave', 'Crach Woods', 'Damsel', 'The Emblem', 'Fogwood', 'Gold', 'Grisly Refuge', 'The Ides', 'Integrum', "Lion's Head", 'Mount Marce', "Neptune's Throne", 'Oasis', 'Oblitum', 'Posterus', "Raven's Beak Fort", 'Reliqua', 'Silver', 'Skelter Course', 'Thunder Row']], ['The Linn of Mercy', ['Blackroad', 'The Crimson Gardens', 'The Drone', 'The First Coin', 'Fort Duncan', 'Gallant Gough Boulevard', 'The Great Scale', 'Hardline', 'The Last Grove', 'Lathair', 'The Long Whine', 'Merciful Strait', 'Mudhole', 'Nathair', 'Outwich Ranch', 'The Prairie Bazaar', 'The River Mercy', 'Rotdust', 'Solas Burn', 'Ulster Falls']], ['Marban Hollow', ['Bleating Plateau', 'Bubble Basin', 'Checkpoint Bua', 'The Clutch', 'The Curse', 'Deepfleet Valley', 'Gaping Maw', 'Lockheed', 'Lockheed Breakers', 'Lughbone Dam', "Maiden's Veil", 'Mount Mac Tire', 'Mox', 'Oster Wall', 'Pilgrimage', 'The Claim', 'Sanctum', 'Slender Cove', 'The Spitrocks']], ['Godcrofts', ['Anchor Beach', 'Argosa', 'The Axehead', 'Bagh Mor', "Barreller's Bay", 'Blackwatch', 'Chamil Ravine', 'Den of Thieves', 'The Dice Road', 'The Fleece Road', "Gambler's Gulf", 'Isawa', 'Kolas', 'The Kris Ford', 'Lipsia', 'Peripti Depths', 'Perpetua Channel', 'Primus Trames', 'Promithiens', 'Protos', 'Saegio', 'Skodio', 'Ursa Trail', 'Vicit Lagoon']], ['Farranac Coast', ['The Bone Haft','Cormac Beach', 'The Heart Road', 'Huskhollow', 'The Iron Beach', 'Iuxta Homestead', 'The Jade Cove', 'Kardia', 'Lushlands', "Macha's Keening", 'Mara', 'Pleading Wharf', 'The Reaping Fields', 'The River Mercy', 'Scarp of Ambrose', 'Scythe', 'Sickle Hill', 'Skeleton Road', 'The Snag', 'The Spearhead', 'Sunder Beach', 'Terra', 'Victa', 'The Winged Walk']], ["Deadlands", ['Abandoned Ward', 'The Abbey Drag',  'The Boneyard', 'Border Concourse', 'Brine Glen', "Callahan's Boot", "Callahan's Gate", "Callahan's Pass", 'Carpal Trail', 'Crumbling Passage', "Hope's Causeway", 'The Iron Passage', 'The Iron Road', "Iron's End",'Liberation Point', 'Marrow Copse', 'Mercy Meadow', "Mercy's End", 'Overgrown Pasture','The Pits',  'The Salt Farms', 'The Salt March', 'The Spine', 'The Steppes', "Sun's Hollow"]], ['Endless Shore', ["Balor's Crown", 'Brackish Point', 'The Dannan Coast', 'Dannan Ridge', 'The Dark Road', "Dearg's Fang", 'Enduring Wake', 'The Evil Eye', 'Iron Junction', "Kelpie's Mane", "Kelpie's Tail", "Merrow's Rest", 'The North Star', 'The Old Jack Tar', 'The Overland', 'Saltbrook Channel', 'The Selkie Bluffs', 'Sídhe Fall', 'The Styx', 'Tuath Watchpost', 'Vulpine Watch', 'Weakthered Landing', 'Wellchurch', 'The Whispering Waves', 'Woodbind']], ["Fisherman's Row", ['A Lost Sot', 'Arcadia', 'Bident Crossroads', 'Black Well', 'Cat Step', 'Dankana Post', 'The Dire Strings', 'Eidolo', 'Fort Ember', "Hangmen's Court", 'Heart of Rites', 'House Roloi', 'Lake Nerites', 'Liberty Hill', 'Oceanwatch', 'Partisan Island', 'Peripti Landing', 'Progonos Watch', 'The Rite Road', 'The Satyr Stones', 'The Three Sisters', 'Torch of Demeter']], ['Loch Mor', ["Bastard's Blade", 'Chattering Prairie', 'Escape', 'Fallen Fields', 'Feirmor', 'The Founding Fields', 'The Glean', 'Market Road', "Mercy's Wish", 'Missing Bones', "Moon's Copse", 'Ousterdown', 'Pockfields', 'The Reaping Road', 'Rip', 'The Roilfort', 'Tear', 'Tomb of the First', 'Westmarch', "Widow's Wail"]], ['The Drowned Vale', ['The Baths', 'Bootnap', 'Coaldrifter Stead', 'Eastmarch', 'Esterfal', 'Fleetsfall River', 'Loggerhead', 'The Other Vein', 'The Saltcaps', 'Singing Serpents', 'Sop Fields', 'Splinter Pens', "Sprite's Game", 'The Turtlerocks', 'The Wash', 'The Willow Wood', "Wisp's Warning"]], ['Tempest Island', ['Alchimio Estate', 'Cirris Valve', 'Eros Lagoon', 'The Gale', 'The Iris', 'Isle of Psyche', "Liar's Haven", 'Lost Airchal', 'The Outwood', 'Plana Fada', 'Reef', 'The Rush', 'Sclera', 'Stratos Valve', 'Surge Field']], ['Westgate', [ 'Ash Step',  'Ceo Highlands', 'Cinder Road', 'Coastway','Ember Hills', 'The Gallows', 'Handsome Hideaway', 'The Hem', 'Hillcrest', 'Holdfast', 'Kingstone', "The Knight's Edge", 'Longstone', "Lord's Mouth", 'Lost Partition', "Rancher's Fast", 'Sanctuary', "Triton's Curse", 'Warden Walk', 'Westgate Keep',  'Wyattwick', "Zeus' Demise"]], ["Allod's Bight", ["Allod's Children", 'Belaying Trace', 'Blunder Bight', 'Breath of Cetus', 'Gangrenous Hollow', "Harpy's Perch", 'Homesick', 'The List', "Mercy's Wail", 'Rumhold', 'The Rumroad', 'Scurvyshire', 'The Stone Plank', "Titan's End", 'The Turncoat', "Witch's Last Flight"]], ['Umbral Wildwood', ['Adze Crossroads', 'Amethyst', "Atropos' Fate", "Clotho's Refuge", 'Dredgefield', 'The Dredgewood', 'The Foundry', 'The Frontier', 'The Gap', 'Golden Concourse', 'GoldenRoot Ranch', "Hermit's Rest", "Lachesis' Tally", 'Leatherback Pathway', 'Sentry', 'Steely Fields', 'The Strands', 'Stray', 'Terrapin Woods', 'Thunder Row', 'Thunderfoot', 'Vagrant Bastion', 'Wasting Holt', "Weaver's Trail"]], ['The Heartlands', ['18th Sideroad', 'Barronstown', 'Barronswall', 'Barrony Ranch', 'Barrony Road', 'The Blemish', 'The Breach', 'Deeplaw Post', 'Erimos Ranch', 'Fort Providence', 'The Fuming Pen', 'Greenfield Orchard', "Havester's Range", 'Janus Field', 'Kos Meadows', 'Lower Barrony Field', 'Oleander Fields', 'Oleander Homestead', 'Pandora Compound', 'The Plough', 'Proexí', 'Providence Field', 'The Rollcage', 'Upper Heartlands']], ['Shackled Chasm', ['A Careless Net', 'A New Spring', 'Autumn Pyres', 'The Bell Toll', 'The Blue', 'Final Step', 'The First Rung', 'Firstmarch', 'The Foolish Maidens', 'Gorgon Grove', 'The Grave of Rastus', 'Hades Ladder', "Legion's Dawn",'Limewood Holdfast', 'Manky Hills', 'The Plunging', 'Reflection', 'Silk Farms', "Simo's Run", 'Southreach', 'The Vanguard', "Widow's Web"]], ['The Fingers', ["Captain's Dread", 'Cavitatis', 'Cementum', 'Fort Barley', "Headman's Villa", 'Mount Talio', 'The Old Captain', 'Plankhouse', 'The Routed', 'Second Man', 'Tears of Tethys', 'Titancall', 'The Tusk', 'The Wary Nymphae']], ['Ash Fields', ['Ash Step', 'The Ashfort', 'Ashtown', 'The Calamity', 'Camp Omega', 'Cinder Road', 'Cometa', 'Electi', 'Ember Hills', "Gunslinger's Pass", 'Mount Blackmoth', 'Mount Brimstone', 'Omega Valley', 'Sootflow', 'The Stillness', 'Tar Creek', 'Twin Flames', 'Wasteful Calm']], ['Great March', ['The Black Wing', 'Dendro Field', 'Fateless Grove', 'Fengari', 'Halting Valley', 'Jackboot Creek', 'Legacy Pasture', 'Leto', 'The Midmarch', 'Milowood', 'Mors Range', "Myrmidon's Stay", 'Remnant Acreage', 'Remnant Villa', 'The River Senti', 'Schala Estate', 'Serpent Charm', 'Sitaria', 'The Spice Road', 'The Swan', 'Violet Fields', 'Violethome', 'The White Wing', 'Zealous Approach']], ['Terminus', ['Aspisa', 'Bay of the Ward', 'Bloody Palm Fort', 'Cerberus Wake', 'Dogbone', "The Legion's Bounty", "Martyr's Fang", 'The Phalanx', 'The Respite', 'Rising Loom', 'Sever', 'Therizo', 'Three Siblings', 'Thunder Plains', 'Thunderbolt', "Warlord's Stead", 'Winding Bolas']], ['Red River', ['Camp Upsilon', 'Cannonsmoke', 'Climb', 'Fort Matchwood', 'Fragment Knolls', 'Gunpowder Lane', 'Judicium', 'Minos', 'Penance', 'Perish', 'Red Crossing', 'The Red River', 'Twelve Drops', 'Victoria Hill']], ['Acrithia', ["Astero's Spear", 'The Brinehold', 'Camp Omicron', 'Duelling Kegs', 'Fated Heel', 'Final March', 'Heir Apparent', 'Legion Ranch', 'Nereid Keep', 'Patridia', 'Riverlands', 'Swordfort', 'Thetus Ring', 'Weary Slumber']], ['Kalokai', ['Baccae Ridge', 'Bleary', 'Camp Tau', 'Clarity Meadow', 'Hallow', 'Lost Greensward', "Night's Regret", 'Sourtooth', 'South March', 'Sweethearth']]
-
-
-import subprocess
-subprocess.run(["pip","install","git+https://github.com/Rapptz/discord.py@master"])
-import keepalive
 import os
+import pickledb
 import discord
 import discord.utils
-import io
-import time
-from replit import db
 from dotenv import load_dotenv
-from PIL import Image
-from discord.ext import tasks
-import asyncio
+import ticket
+import reserve
+db = pickledb.load('logiTicket.json', False)
+db.set("TicketNum",0)
+db.set("lb","//")
 
-
-keepalive.keep_alive()
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
 
-def split(word):
-    return [char for char in word]
-
-
-messagelist=[[]]
-global regions
-global towns
 global message_id
 global commandChannel
-global orderChannel
 global ticketChannel
 
 
-class DropDown(discord.ui.View):
-    @discord.ui.select(options = [discord.SelectOption(label = 'Acrithia', value ='Acrithia'),discord.SelectOption(label = "Allod's Bight", value ="Allod's Bight"),discord.SelectOption(label = 'Ash Fields', value ='Ash Fields'),discord.SelectOption(label = 'Basin Sionnach', value ='Basin Sionnach'),discord.SelectOption(label = "Callahan's Passage", value ="Callahan's Passage"),discord.SelectOption(label = "Callum's Cape", value ="Callum's Cape"),discord.SelectOption(label = 'Clanshead Valley', value ='Clanshead Valley'),discord.SelectOption(label = 'Endless Shore', value ='Endless Shore'),discord.SelectOption(label = 'Farranac Coast', value ='Farranac Coast'),discord.SelectOption(label = "Fisherman's Row", value ="Fisherman's Row"),discord.SelectOption(label = 'Godcrofts', value ='Godcrofts'),discord.SelectOption(label = 'Great March', value ='Great March'),discord.SelectOption(label = 'Howl County', value ='Howl County'),discord.SelectOption(label = 'Kalokai', value ='Kalokai'),discord.SelectOption(label = 'Loch Mor', value ='Loch Mor'),discord.SelectOption(label = 'Marban Hollow', value ='Marban Hollow'),discord.SelectOption(label = "Morgen's Crossing", value ="Morgen's Crossing"),discord.SelectOption(label = 'Nevish Line', value ='Nevish Line'),discord.SelectOption(label = 'Origin', value ='Origin'),discord.SelectOption(label = 'Reaching Trail', value ='Reaching Trail'),discord.SelectOption(label = 'Red River', value ='Red River'),discord.SelectOption(label = 'Shackled Chasm', value ='Shackled Chasm'),discord.SelectOption(label = 'Speaking Woods', value ='Speaking Woods'),discord.SelectOption(label = 'Stonecradle', value ='Stonecradle'),discord.SelectOption(label = 'Tempest Island', value ='Tempest Island')])
-    async def click_me_select(self, select: discord.ui.Select, interaction: discord.Interaction):
-      x=1
+commandChannel = 1016682697248223272
+ticketChannel = 1016682702629503077
 
+
+def split(word):
+    return [char for char in word]
 
 @client.event
 async def on_message(message, user=discord.Member):
   if message.author.id != 915715481112023051:
-    if message.content.split("%")[1] == "ticket":
+    
+    if message.content.split(" ")[0] == "%ticket":
       waitmsg= await message.channel.send("```Loading Interface ....```")
       try:
-        ticketnum = db["TicketNum"]
+        ticketnum = db.get("TicketNum")
       except(Exception):
-        db["TicketNum"] = -1
+        db.set("TicketNum", -1)
         ticketnum = 0
-      db["TicketNum"] = ticketnum+1
-      db[str(ticketnum)] = str(message.author.id)
+      db.set("TicketNum",ticketnum+1)
+      db.set(str(ticketnum) , str(message.author.id)+"//")
       embedVar = discord.Embed(title="Order #"+str(ticketnum)+":")
-      image = Image.open("map.png")
-      with io.BytesIO() as output:
-        image.save(output, format="PNG")
-        im = output.getvalue()
-      f = io.BytesIO(im)
-      file = discord.File(f, filename="output.png")
+      file = discord.File("images/map.png", filename="output.png")
       embedVar.set_image(url="attachment://output.png")
       embedVar.set_footer(text="Select Region and press enter")
-      title1 = "Compiling Ticket for: "+str(message.author.display_name)
-      embedVar.set_author(name=title1,icon_url="https://cdn.discordapp.com/attachments/867837759518146583/899405909531447346/141.png")
-      await message.channel.send(file=file, embed=embedVar,view = DropDown())
+      title = "Compiling Ticket for: "+str(message.author.display_name)
+      embedVar.set_author(name=title)
+      await message.channel.send(file=file, embed=embedVar,view = ticket.DropDownRegions())
       await waitmsg.delete()
       await message.delete()
 
+    
+    if message.content.split(" ")[0]=="%info":
+      channel = message.channel
+      keys = db.getall()
+      for i in range(len(keys)):
+        key = str(db.get(keys[i]))
+        print(key)
+        if key.split("//")[0] == str(message.author.id):
+          ticketnum = keys[i]
+          break
+      messageContent = message.content.split("%info ")[1]
+      await message.delete()
+      delMessageId = int(db.get(ticketnum).split("%")[1])
+      delMessage = await channel.fetch_message(delMessageId)
+      await delMessage.delete()
+      db.set(ticketnum, db.get(ticketnum).split("%")[0]+messageContent)
+      
+      channel = await client.fetch_channel(ticketChannel)
+      embedVar = discord.Embed(title="Order #"+str(ticketnum)+": "+str(db.get(ticketnum).split("//")[1])+", "+str(db.get(ticketnum).split("//")[2]))
+      guild= channel.guild
+      user = guild.get_member(int(db.get(ticketnum).split("//")[0]))
+      embedVar.add_field(name="```Recipient: ```",value="```"+user.display_name+"```")
+      embedVar.add_field(name="```Information: ```",value="```"+str(db.get(ticketnum).split("//")[3])+"```")
+      embedVar.set_footer(text="All completion of tickets works on an honesty policy, please do not abuse the system")
+      message = await channel.send(embed=embedVar, view = reserve.reserveButton())
+      db.set(ticketnum, db.get(ticketnum)+"//"+str(message.id))      
+
+    if message.content.split(" ")[0]=="%lb":
+      lb = db.get("lb").split("//")
+      lbSplit =[[]]
+      for i in range(len(lb)):
+        if lb[i] != "":
+          lbSplit.append([lb[i][0:18],lb[i][18:len(split(lb[i]))]])
+      del lbSplit[0]
+      lbSplit = sorted(lbSplit, key=lambda x: x[1], reverse=True)
+      for i in range(len(lbSplit)):
+        lbSplit[i][0]=message.guild.get_member(int(lbSplit[i][0])).display_name
+      print(lbSplit)
+      lbOutput=""
+      for i in range(10):
+        try:
+          lbOutput="```#"+str(i+1)+"      "+lbSplit[i][0]+"      "+lbSplit[i][1]+"```\n"
+        except:
+          break
+      embedVar = discord.Embed(title="Leaderboard")
+      embedVar.set_footer(text= "- Made by Stolas")
+      embedVar.add_field(name="```Place:   Name:   Orders Completed:```",value=lbOutput)
+      title = "Top ten"
+      embedVar.set_author(name=title)
+      await message.channel.send(embed=embedVar)
+      await message.delete()
+      
+      
 
 client.run(TOKEN)
