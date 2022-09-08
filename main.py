@@ -5,9 +5,7 @@ import discord.utils
 from dotenv import load_dotenv
 import ticket
 import reserve
-db = pickledb.load('logiTicket.json', False)
-db.set("TicketNum",0)
-db.set("lb","//")
+db = pickledb.load('logiTicket.json', True)
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -30,14 +28,14 @@ def split(word):
 @client.event
 async def on_message(message, user=discord.Member):
   if message.author.id != 915715481112023051:
-    
     if message.content.split(" ")[0] == "%ticket":
+      db = pickledb.load('logiTicket.json', True)
       waitmsg= await message.channel.send("```Loading Interface ....```")
       try:
         ticketnum = db.get("TicketNum")
       except(Exception):
         db.set("TicketNum", -1)
-        ticketnum = 0
+        ticketnum = db.get("TicketNum") 
       db.set("TicketNum",ticketnum+1)
       db.set(str(ticketnum) , str(message.author.id)+"//")
       embedVar = discord.Embed(title="Order #"+str(ticketnum)+":")
@@ -52,8 +50,10 @@ async def on_message(message, user=discord.Member):
 
     
     if message.content.split(" ")[0]=="%info":
+      db = pickledb.load('logiTicket.json', True)
       channel = message.channel
-      keys = db.getall()
+      keys = str(db.getall()).replace("dict_keys([","").replace("]","").replace("'","").replace(")","").split(", ")
+      print(keys)
       for i in range(len(keys)):
         key = str(db.get(keys[i]))
         print(key)
@@ -78,6 +78,7 @@ async def on_message(message, user=discord.Member):
       db.set(ticketnum, db.get(ticketnum)+"//"+str(message.id))      
 
     if message.content.split(" ")[0]=="%lb":
+      db = pickledb.load('logiTicket.json', True)
       lb = db.get("lb").split("//")
       lbSplit =[[]]
       for i in range(len(lb)):

@@ -2,7 +2,6 @@ import discord
 import towns
 import cancel
 import pickledb
-db = pickledb.load('logiTicket.json', False)
 selectList = [discord.SelectOption(label = 'Error', value ='Error')]
 
 
@@ -25,6 +24,7 @@ class InfoButton(discord.ui.View):
 
 
 async def initialDropDown(interaction,select):
+    db = pickledb.load('logiTicket.json', True)
     global ticketnum
     ticketnum = int(interaction.message.embeds[0].title.split(" #")[1].split(":")[0])
     global index

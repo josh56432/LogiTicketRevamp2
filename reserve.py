@@ -2,11 +2,12 @@ import discord
 import cancel
 import complete
 import pickledb
-db = pickledb.load('logiTicket.json', False)
+
 
 class reserveButton(discord.ui.View):
     @discord.ui.button(style=discord.ButtonStyle.green, label='Reserve')
     async def click_me_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        db = pickledb.load('logiTicket.json', True)
         await interaction.response.defer()                        
         embedVar = interaction.message.embeds[0]
         embedVar.set_footer(text="Reserved By: " + interaction.user.display_name)

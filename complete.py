@@ -2,7 +2,6 @@ import discord
 import cancel
 import reserve
 import pickledb
-db = pickledb.load('logiTicket.json', False)
 
 
 def split(word):
@@ -11,6 +10,7 @@ def split(word):
 class completeButton(discord.ui.View):
   @discord.ui.button(style = discord.ButtonStyle.grey, label="Unreserve")
   async def click_me_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+    db = pickledb.load('logiTicket.json', True)
     await interaction.response.defer()                        
     embedVar = interaction.message.embeds[0]
     embedVar.set_footer(text="All completion of tickets works on an honesty policy, please do not abuse the system")
@@ -28,6 +28,7 @@ class completeButton(discord.ui.View):
   
   @discord.ui.button(style = discord.ButtonStyle.green, label='Complete')
   async def click_me_button_2(self, interaction: discord.Interaction, button: discord.ui.Button):
+    db = pickledb.load('logiTicket.json', True)
     ticketnum = int(interaction.message.embeds[0].title.split(" #")[1].split(":")[0])
     if str(interaction.user.id)==db.get(str(ticketnum)).split("//")[5]:
       channel = interaction.channel

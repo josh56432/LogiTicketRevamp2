@@ -1,5 +1,5 @@
 import pickledb
-db = pickledb.load('logiTicket.json', False)
+db = pickledb.load('logiTicket.json', True)
 
 db.set("TicketNum",0)
 db.set("lb","//")
