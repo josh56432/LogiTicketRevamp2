@@ -2,8 +2,10 @@ import os
 import pickledb
 import discord
 import discord.utils
+from discord.ext import tasks
 from dotenv import load_dotenv
 import ticket
+import complete
 import reserve
 db = pickledb.load('logiTicket.json', True)
 
@@ -18,13 +20,38 @@ global commandChannel
 global ticketChannel
 
 
-commandChannel = 1016682697248223272
-ticketChannel = 1016682702629503077
+commandChannel = 1017529528819658934
+ticketChannel = 1017529586076094505
 
 
 def split(word):
     return [char for char in word]
 
+
+@tasks.loop(seconds=120)          
+async def buttonRefresh():
+  db = pickledb.load('logiTicket.json', True)
+  keys = str(db.getall()).replace("dict_keys([","").replace("]","").replace("'","").replace(")","").split(", ")
+  for i in range(len(keys)):
+    try:
+      channel = client.get_channel(ticketChannel)
+      messageId = int(db.get(str(keys[i])).split("//")[4])
+      msg = await channel.fetch_message(messageId)
+      if len(db.get(str(keys[i])).split("//")) == 6:
+        await msg.edit(embed=msg.embeds[0], view=complete.completeButton())
+      else:
+        await msg.edit(embed=msg.embeds[0], view=reserve.reserveButton())
+    except Exception as e:
+      if keys[i] != "TicketNum" and keys[i] != "lb":
+        print(e)
+
+
+@client.event
+async def on_ready():    
+  print("Ready!")
+  buttonRefresh.start()
+
+  
 @client.event
 async def on_message(message, user=discord.Member):
   if message.author.id != 915715481112023051:
@@ -50,6 +77,7 @@ async def on_message(message, user=discord.Member):
 
     
     if message.content.split(" ")[0]=="%info":
+      
       db = pickledb.load('logiTicket.json', True)
       channel = message.channel
       keys = str(db.getall()).replace("dict_keys([","").replace("]","").replace("'","").replace(")","").split(", ")
@@ -77,6 +105,7 @@ async def on_message(message, user=discord.Member):
       message = await channel.send(embed=embedVar, view = reserve.reserveButton())
       db.set(ticketnum, db.get(ticketnum)+"//"+str(message.id))      
 
+    
     if message.content.split(" ")[0]=="%lb":
       db = pickledb.load('logiTicket.json', True)
       lb = db.get("lb").split("//")
